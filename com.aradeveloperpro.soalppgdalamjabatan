@@ -1,80 +1,94 @@
 {
 "redirect" : {
 
+// untuk merubah menjadi mode mp3 - panggil link ini via offline / json - "file:///android_asset/music/playlist.html"
+// pastikan mode offline mp3 true jika merubah ke mode mp3
+// https://kabinetdeveloperexample.blogspot.com/2020/12/optimasi-blogger.html
+
 "HOMEURL" : "https://ppg-aradeveloper.blogspot.com/p/sitemap.html",
- 
- // testing server json yang dipakai
-"Json_popup_Wait" : "Update Soal Server...100% Ready",
 
+// testing server json yang dipakai
+"JSON_POPUP_WAIT" : "Update Soal Server...100% Ready",
 
+// Redirect ke apps lain 
+"REDIRECT_TRAFFIC" : false,
+"LINK_REDIRECT" : "https://play.google.com/store/apps/developer?id=Ara+Developer+Pro",
+
+// main ads ke backup ads 
+"MODE_BACKUP_ADS" : true,
 "MODE_NO_ADS" : false,
-"MODE_TES_IKLAN_FAN_ADMOB_STARTAPP_APPDODEAL" : false,
+"MODE_TES_IKLAN_FAN_ADMOB_UNITY_STARTAPP_APPDODEAL" : false,
 
+//     mode pengaturan iklan
+//     Mode ADMOB       Admob backup Unity Backup Startapp
+//     Mode FAN         FAN backup Unity Backup Startapp
+//     Mode UNITY       Unity backup Startapp
+//     Mode APPLOVIN    Applovin backup Unity Backup Startapp
 
-// mode pengaturan iklan
-// Mode ADMOB       Admob backup Unity Backup Startapp
-// Mode FAN         FAN backup Unity Backup Startapp
-// Mode APPODEAL    Appodeal backup Unity Backup Startapp
-// Mode UNITY       Unity backup Startapp
-// Mode APPLOVIN    Applovin backup Unity Backup Startapp
- // native hanya bisa admob fan appodeal
-  
-"PENGATURAN_IKLAN_banner" : "ADMOB",
-"PENGATURAN_IKLAN_inter" : "ADMOB",
-"PENGATURAN_IKLAN_native" : "ADMOB",
+"PENGATURAN_IKLAN_BANNER" : "ADMOB",
+"PENGATURAN_IKLAN_INTER" : "ADMOB",
+"PENGATURAN_IKLAN_NATIVE" : "ADMOB",
 
-"INTER_COUNT" : 7,
+"INTER_COUNT" : "4",
 
-"enable_strap" : true,
-"enable_strap_SplahScreen" : false,
+"ENABLE_STRAP" : true,
+"ENABLE_STRAP_SPLAHSCREEN" : false,
 
-"ads_on_exit_dialog" : true,
+"ADS_ON_EXIT_DIALOG" : false, // WARNING - CTR MENINGKAT
 
-"Mode_offline_mp3" : false,
-"Enable_Sticky_Notification" : false,
-
+"MODE_OFFLINE_MP3" : false,
+"ENABLE_STICKY_NOTIFICATION" : true,
 
 "STARAPPID" : "203437393",
 
-"ADMOB_BANNER" : "ca-app-pub-5674572091025512/8264178802",
+"ADMOB_BANNER" : "ca-app-pub-5674572091025512/8264178802", // admob andri
 "ADMOB_INTER" : "ca-app-pub-5674572091025512/1698770458",
 "ADMOB_NATIV" : "ca-app-pub-5674572091025512/9723781891",
 
-"hpk_alien" : "latihan soal pretest ppg 2022",
-"HPK_ADMOB1" : "bocoran soal ukg ppg 2022",
+"hpk_alien" : "latihan soal pretest ppg",
+"HPK_ADMOB1" : "bocoran soal ukg ppg",
 "HPK_ADMOB2" : "bank soal ppg 2022",
 "HPK_ADMOB3" : "soal ppg terbaru",
-"HPK_ADMOB4" : "ppg 2022",
-"HPK_ADMOB5" : "soal pretest dan jawaban ppg 2022",
-
+"HPK_ADMOB4" : "ppg 2023",
+"HPK_ADMOB5" : "soal pretest dan jawaban ppg",
 
 "FAN_BANNER" : "YOUR_PLACEMENT_ID",
 "FAN_INTER" : "YOUR_PLACEMENT_ID",
 "FAN_NATIVE" : "YOUR_PLACEMENT_ID",
 
-
-"APPODEAL_APP_ID" : "YOUR_APPODEAL_APP_KEY",
-
 "UNITY_BANNER" : "banner",
-"UNITY_INTERSTITIAL" : "interstitial",
-"UNITY_GAME_ID" : "YOUR_AD_UNIT_ID", 
-"UNITY_TEST_MODE" : "false",
+"UNITY_INTERSTITIAL" : "inter",
+"UNITY_GAME_ID" : "4114625",
 
-"APPLOVIN_BANNER_ID" : "YOUR_AD_UNIT_IDc",
-"APPLOVIN_INTERSTITIAL_ID" : "YOUR_AD_UNIT_ID",
+"APPLOVIN_BANNER_MAX_ID" : "71f5faf4df08917c",
+"APPLOVIN_INTERSTITIAL_MAX_ID" : "4711e1718612d7dc",
 
-"Button_Start" : "SOAL PPG",
-"Button_Share" : "SHARE TO FRIEND",
-"Button_Rating" : "RATING NOW",
+"BUTTON_START" : "SOAL PPG",
+"BUTTON_SHARE" : "SHARE TO FRIEND",
+"BUTTON_RATING" : "RATING NOW",
 
+"EXIT_POPUP_DIALOG" : "
+Agar Kami lebih semangat mengembangkan Aplikasi ini
 
-"Exit_Popup_Dialog" : "Agar Kami lebih semangat mengembangkan Aplikasi ini \n\n Bantu kami dengan rating bintang 5 ya :)",
-"Rate_Button" : "Rate 5 Stars",
-"Later_Button" : "Rate Later",
-"enable_Share_button" : true,
-"Share_TXT" : "Soal PPG 2022- Download Now",
-"More_Button" : "Share Via WhatsApp",
-"Url_More_Apps" : "https:// jika share button TRUE maka tombol MORE berubah SHARE"
+Bantu kami dengan rating bintang 5 ya 
 
-  }
+Klik tombol rating 
+",
+"RATE_BUTTON" : "Rate 5 Stars",
+"LATER_BUTTON" : "Later",
+"ENABLE_SHARE_BUTTON" : true,
+"SHARE_TXT" : "
+this app is awesome 
+
+you need try to donwload this app
+i.ve download and so much happy
+
+",
+
+"MORE_BUTTON" : "Share Via WhatsApp",
+// Jika share button TRUE maka tombol MORE berubah SHARE
+// isi url more apps jika ENABLE_SHARE_BUTTON  is false
+"URL_MORE_APPS" : "https://play.google.com/store/apps/developer?id=Ara+Developer+Pro"
+
+ }
 }
