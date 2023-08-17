@@ -16,7 +16,7 @@
 
 // main ads ke backup ads 
 "MODE_BACKUP_ADS" : true,
-"MODE_NO_ADS" : true,
+"MODE_NO_ADS" : false,
 "MODE_TES_IKLAN_FAN_ADMOB_UNITY_STARTAPP_APPDODEAL" : false,
 
 //     mode pengaturan iklan
@@ -27,9 +27,9 @@
 
 "PENGATURAN_IKLAN_BANNER" : "ADMOB",
 "PENGATURAN_IKLAN_INTER" : "ADMOB",
-"PENGATURAN_IKLAN_NATIVE" : "ADMOB",
+"PENGATURAN_IKLAN_NATIVE" : "APPLOVIN",
 
-"INTER_COUNT" : "20",
+"INTER_COUNT" : "6",
 
 "ENABLE_STRAP" : true,
 "ENABLE_STRAP_SPLAHSCREEN" : false,
@@ -41,8 +41,8 @@
 
 "STARTAPPID" : "201365479",
 
-"ADMOB_BANNER" : "ca-app-pub-3940256099942544/6300978111",
-"ADMOB_INTER" : "ca-app-pub-3940256099942544/1033173712",
+"ADMOB_BANNER" : "ca-app-pub-5674572091025512/2566886451",// admob sendiri
+"ADMOB_INTER" : "ca-app-pub-5674572091025512/8909783586",// admob sendiri
 "ADMOB_NATIV" : "ca-app-pub-3940256099942544/2247696110",
 
 "HPK_ALIENDROID" : "kuota data 30gb",
@@ -70,7 +70,7 @@
 "EXIT_POPUP_DIALOG" : "
 Agar Kami lebih semangat mengembangkan Aplikasi ini
 
-Bantu kami dengan rating bingtang 5 ya 
+Bantu kami dengan rating bintang 5 ya 
 
 Klik tombol rating 
 ",
