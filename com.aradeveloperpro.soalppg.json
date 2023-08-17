@@ -8,7 +8,7 @@
 "HOMEURL" : "https://ppg-aradeveloper.blogspot.com/p/sitemap.html",
 
 // testing server json yang dipakai
-"JSON_POPUP_WAIT" : "Server Ready . . . v20j14",
+"JSON_POPUP_WAIT" : "Server Ready . . . ",
 
 // Redirect ke apps lain 
 "REDIRECT_TRAFFIC" : false,
@@ -39,7 +39,7 @@
 "MODE_OFFLINE_MP3" : false,
 "ENABLE_STICKY_NOTIFICATION" : true,
 
-"STARTAPPID" : "201365479",
+"STARTAPPID" : "0", // start blm di isi
 
 "ADMOB_BANNER" : "ca-app-pub-5674572091025512/8264178802",
 "ADMOB_INTER" : "ca-app-pub-5674572091025512/1698770458",
